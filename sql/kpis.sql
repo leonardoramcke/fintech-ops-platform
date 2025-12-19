@@ -1,0 +1,1 @@
+SELECT SUM(amount) total_volume FROM transactions;

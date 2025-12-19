@@ -1,0 +1,1 @@
+SELECT t.transaction_id,t.amount internal_amount,s.external_amount,(t.amount-s.external_amount) diff FROM transactions t LEFT JOIN settlements s ON t.transaction_id=s.transaction_id WHERE s.transaction_id IS NULL OR ABS(t.amount-s.external_amount)>0.01;

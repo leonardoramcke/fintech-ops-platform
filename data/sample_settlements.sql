@@ -1,0 +1,1 @@
+INSERT INTO settlements (transaction_id,external_amount,settled_at) VALUES (1,1200,NOW()),(2,14950,NOW()),(3,50000,NOW());

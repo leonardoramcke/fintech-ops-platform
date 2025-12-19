@@ -1,0 +1,1 @@
+INSERT INTO users (full_name, country) VALUES ('Alice Thompson','UK'),('Bruno Silva','Brazil'),('Carlos Mendes','Portugal');

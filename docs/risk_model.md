@@ -1,0 +1,1 @@
+Risk detection is rule-based focusing on volume, failures, reconciliation gaps, and abnormal behavior.

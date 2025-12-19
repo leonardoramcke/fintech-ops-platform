@@ -1,0 +1,1 @@
+CREATE TABLE ledger (ledger_id SERIAL PRIMARY KEY, transaction_id INT, account_type VARCHAR(20), debit DECIMAL(14,2), credit DECIMAL(14,2), created_at TIMESTAMP);

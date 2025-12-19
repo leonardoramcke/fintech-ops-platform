@@ -1,0 +1,1 @@
+The model uses double-entry accounting ensuring transparency, traceability, and regulatory compliance.

@@ -1,0 +1,1 @@
+CREATE TABLE settlements (settlement_id SERIAL PRIMARY KEY, transaction_id INT, external_amount DECIMAL(14,2), settled_at TIMESTAMP);

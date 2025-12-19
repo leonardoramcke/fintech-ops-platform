@@ -1,0 +1,1 @@
+Transactions flow from users into the processing engine, are recorded in the ledger, settled externally, reconciled internally, and analyzed for risk and performance.

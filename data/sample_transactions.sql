@@ -1,0 +1,1 @@
+INSERT INTO transactions (user_id,amount,currency,status,created_at,updated_at) VALUES (1,1200,'EUR','COMPLETED',NOW(),NOW()),(2,15000,'EUR','FAILED',NOW(),NOW()),(3,50000,'EUR','COMPLETED',NOW(),NOW());

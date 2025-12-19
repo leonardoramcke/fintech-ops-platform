@@ -1,0 +1,1 @@
+SELECT user_id,SUM(amount) total_volume FROM transactions GROUP BY user_id HAVING SUM(amount)>40000;

@@ -1,0 +1,1 @@
+CREATE TABLE transactions (transaction_id SERIAL PRIMARY KEY, user_id INT REFERENCES users(user_id), amount DECIMAL(14,2), currency VARCHAR(10), status VARCHAR(20), created_at TIMESTAMP, updated_at TIMESTAMP);
